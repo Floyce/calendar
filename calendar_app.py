@@ -6,7 +6,7 @@ class CalendarApp(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Blacks Calendar")
+        self.setWindowTitle("Blacks Updated Calendar")
         self.setGeometry(100, 100, 400, 300)
 
         # Main layout
@@ -30,7 +30,7 @@ class CalendarApp(QMainWindow):
 
     def print_selected_date(self):
         selected_date = self.calendar.selectedDate()
-        print("Selected date:", selected_date.toString())
+        print("Selected_ came to test pr_date:", selected_date.toString())
 
 # Main entry point
 if __name__ == "__main__":
